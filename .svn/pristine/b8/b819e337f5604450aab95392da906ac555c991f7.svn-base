@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/w_bg" 
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@id/second_title"
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@id/second_imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16.0dip"
+            android:src="@drawable/w_backbutton" />
+
+        <TextView
+            android:id="@id/second_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置提醒"
+            android:textColor="@color/black"
+            android:textSize="30.0sp" />
+
+        <ImageView
+            android:id="@id/second_imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/second_imageView1"
+            android:layout_marginRight="16.0dip"
+            android:src="@drawable/y_delete" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_below="@id/second_title"
+        android:background="#ffc3c3c3" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66.0dip"
+        android:background="#fff3efed"
+        android:padding="10.0dip" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@id/edit_wrap"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:orientation="vertical"
+                android:padding="5.0dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="药物名称："
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <EditText
+                        android:id="@id/drug_name"
+                        android:layout_width="150.0dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_focus"
+                        android:inputType="text" />
+                </LinearLayout>
+
+                <!--
+                     <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:background="@drawable/border_dashed" />
+                -->
+                <!--
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="开始时间："
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@id/activity_time"
+                        android:layout_width="150.0dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_focus"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:textSize="15.0sp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:padding="5.0dip" >
+
+                        <ImageView
+                            android:id="@id/drug_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/y_deleterow" />
+                    </LinearLayout>
+                </LinearLayout>
+                -->
+
+                <LinearLayout
+                    android:id="@+id/time_add"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10.0dip" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:background="@drawable/border_dashed" />
+
+                <LinearLayout
+                    android:id="@+id/addtime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <ImageView
+                        android:id="@id/y_addbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/y_addcorner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/y_addbtn"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginTop="3.0dip"
+                        android:text="增加一次用药时间"
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:background="@drawable/border_dashed" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="服用量："
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <EditText
+                        android:id="@+id/drug_doses"
+                        android:layout_width="50.0dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_focus"
+                        android:inputType="text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="（每次）"
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:background="@drawable/border_dashed" />
+
+                <LinearLayout
+                    android:id="@+id/drug_names"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="药品剂型："
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <TextView
+                        android:id="@+id/y_drugclasss"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="支"
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:padding="5.0dip" >
+
+                        <ImageView
+                            
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/arrow" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:background="@drawable/border_dashed" />
+
+                <LinearLayout
+                    android:id="@+id/ring_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="铃声："
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <TextView
+                        android:id="@+id/ringNtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择铃声"
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:padding="5.0dip" >
+
+                        <ImageView
+                            android:id="@id/drug_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/arrow" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:background="@drawable/border_dashed" />
+
+                <LinearLayout
+                    android:id="@+id/interval_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="重复："
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <TextView
+                        android:id="@+id/ys_drugclass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="每天"
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:padding="5.0dip" >
+
+                        <ImageView
+                            android:id="@id/drug_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/arrow" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:background="@drawable/border_dashed" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/clock_on"
+                        android:layout_marginTop="4.0dip"
+                        android:text="闹钟："
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <ImageView
+                        android:id="@+id/clock_on"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:src="@drawable/y_on" />
+
+                    <!-- <ImageView
+                        android:id="@+id/clock_off"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:src="@drawable/y_off" /> -->
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/clock_on"
+                        android:layout_marginTop="4.0dip"
+                        android:text="备注："
+                        android:textColor="@color/black"
+                        android:textSize="17.0sp" />
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/y_on" 
+                        android:visibility="gone"/>
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip" 
+                        android:hint="点击添加"
+                        android:layout_marginTop="4.0dip"
+                        android:textSize="17.0sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@id/linearLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/textView4"
+                    android:layout_marginTop="27.0dip"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/btnlead2backs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:background="@drawable/y_save" />
+
+                    <Button
+                        android:id="@+id/btnlead2nexts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/linearLayout1"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_toRightOf="@id/linearLayout1"
+                        android:background="@drawable/y_cansel" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

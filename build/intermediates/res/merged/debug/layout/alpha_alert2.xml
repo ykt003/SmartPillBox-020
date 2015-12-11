@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dip"
+    android:layout_height="150dip"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/groups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@id/uploadHistory"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:text="每天"
+                android:textColor="@color/black"
+                android:textSize="20.0dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#ffa6a6a6" />
+
+            <RadioButton
+                android:id="@id/button2"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:text="一次"
+                android:textColor="@color/black"
+                android:textSize="20.0dip" />
+        </RadioGroup>
+    </ScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ffa6a6a6" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="#D4D4D4"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/usage_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/layout/alpha_alert2.xml -->

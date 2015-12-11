@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="#ff18d7e5" android:endColor="#ff09adb9" android:angle="270.0" android:centerColor="#ff16cedb" />
+    <stroke android:width="1.0dip" android:color="#ffe41e1e" />
+</shape><!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/drawable/list_item_gradient_bg_press.xml -->

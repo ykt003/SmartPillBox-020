@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!--
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </WebView>
+    -->
+
+    <RelativeLayout
+        android:id="@id/second_title"
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@id/iconSetAlertBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16.0dip"
+            android:src="@drawable/w_backbutton" />
+
+        <TextView
+            android:id="@id/second_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="联系我们"
+            android:textColor="@color/black"
+            android:textSize="30.0sp" />
+
+        <ImageView
+            android:id="@id/second_imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/iconSetAlertBack"
+            android:layout_marginRight="16.0dip"
+            android:src="@drawable/w_add"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#ffcccccc" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/second_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:padding="30dp" 
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text_email_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请发邮件联系我们，会在最短的时间内给您回复。"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:text="e-mail:40561150@qq.com"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold" 
+            android:layout_below="@+id/text_email_name"/>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/layout/ruilinsaer.xml -->

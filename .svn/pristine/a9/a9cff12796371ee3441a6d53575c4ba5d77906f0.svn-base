@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/w_bg" >
+
+    <RelativeLayout
+        android:id="@id/second_title"
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@id/iconSetAlertBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16.0dip"
+            android:src="@drawable/w_backbutton" />
+
+        <TextView
+            android:id="@id/second_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置提醒"
+            android:textColor="@color/black"
+            android:textSize="30.0sp" />
+
+        <ImageView
+            android:id="@id/second_imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/iconSetAlertBack"
+            android:layout_marginRight="16.0dip"
+            android:src="@drawable/w_add" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#ffcccccc" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/second_title"
+        android:background="@drawable/w_background"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@id/second_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:paddingTop="5.0dip" />
+    </LinearLayout>
+
+</RelativeLayout>

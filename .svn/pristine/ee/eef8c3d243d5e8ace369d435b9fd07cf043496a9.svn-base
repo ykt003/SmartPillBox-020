@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能药盒</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="loginbtn">会员登录</string>
+    <string name="login_form_name">姓名</string>
+    <string name="login_form_idcard">身份证</string>
+    <string name="login_form_mobile">手机号</string>
+    <string name="loginbtnclick">loginbtnclick</string>
+    <string name="title_activity_m">MActivity</string>
+    <string name="imageName">imageName</string>
+    <string name="menu_settings">Settings</string>
+    <string name="news">资讯</string>
+    <string name="answers">问答</string>
+    <string name="action">动弹</string>
+    <string name="myZone">我的空间</string>
+    <string name="more">更多</string>
+    <string name="app_menu_surelogout">确定退出程序吗？</string>
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <string name="titlename">选择列表项</string>
+    <string name="cope">复制</string>
+    <string name="delete">删除</string>
+    <string name="todaymedrecord">今天用药提醒：</string>
+    <string name="tomorowmedrecord">明天用药提醒：</string>
+    <string name="title_activity_med_detial">MedDetial</string>
+    <string name="addnewalert">+添加药物提醒</string>
+    <string name="title_activity_add_new_alert">AddNewAlert</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="calanderweek">服药历史统计：本周</string>
+    <string name="calandermonth">服药历史统计：本月</string>
+    <string name="title_activity_select_time">选择时间</string>
+    <string name="title_activity_select_sound">选择提示音</string>
+    <string name="title_activity_select_days">选择间隔</string>
+    <string name="splite">-------------------------------------------------------------------------</string>
+    <string name="title_activity_alarm_controller">AlarmController</string>
+    <string name="alarm_controller">alerm window</string>
+    <string name="one_shot_alarm">一次闹铃</string>
+    <string name="start_repeating_alarm">开始重复闹铃</string>
+    <string name="stop_repeating_alarm">停止重复闹铃</string>
+    <string name="title_activity_alarm_alert">AlarmAlertActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">"DUMMY
+CONTENT"</string>
+    <string name="title_activity_lead1">Lead1Activity</string>
+    <string name="lead1text1">您是否医院患者？</string>
+    <string name="lead1text2">从医院下载处方，自动设置服药提醒</string>
+    <string name="lead1text3">自己输入药名，手工设置服药提醒</string>
+    <string name="title_activity_lead2">Lead2Activity</string>
+    <string name="lead2text1">"从医院下载电子处方
+需要验证您的身份:"</string>
+    <string name="lead2text2">医院:</string>
+    <string name="lead2text3">姓名:</string>
+    <string name="lead2text4">身份证号:</string>
+    <string name="lead2text5">提醒：患者姓名和身份证号必须与医院登记的一致！</string>
+    <string name="title_activity_lead3">Lead3Activity</string>
+    <string name="lead3text1">从医院下载的电子处方</string>
+    <string name="lead3text2">就诊日期：</string>
+    <string name="lead3text3">医院：北京大学第六医院</string>
+    <string name="lead3text4">科室：</string>
+    <string name="lead3text5">医生：</string>
+    <string name="lead3text6">处方：</string>
+    <string name="title_activity_lead4">Lead4Activity</string>
+    <string name="lead4text1">"闹钟设置成功
+又是美好的一天！"</string>
+
+    <string name="afterbreakfaft">请服用早餐前药物</string>
+
+</resources>

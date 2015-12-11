@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.suwen.medicineassistant.widget.DashedLine android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_span="5" />
+</TableRow>

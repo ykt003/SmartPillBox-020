@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/select_title"
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/iconSelectMusicBacks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16.0dip"
+            android:src="@drawable/w_backbutton" />
+
+        <TextView
+            android:id="@id/second_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="选择铃声"
+            android:textColor="@color/black"
+            android:textSize="30.0sp" />
+
+        <ImageView
+            android:id="@+id/save_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16.0dip"
+            android:src="@drawable/y_save" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#ffcccccc" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/select_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_title"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip" >
+
+        <Button
+            android:id="@id/select_bells"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_left_white"
+            android:text="铃声"
+            android:textColor="@color/deep_green"
+            android:textSize="20.0sp" />
+
+        <!--
+             <Button
+            android:id="@id/select_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_centerbutton"
+            android:text="本地音乐"
+            android:textColor="@color/white"
+            android:textSize="20.0sp" />
+        -->
+
+
+        <!--
+             <Button
+            android:id="@id/select_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_rightbutton"
+            android:text="录音"
+            android:textColor="@color/white"
+            android:textSize="20.0sp" />
+        -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/select_button" >
+
+        <ListView
+            android:id="@+id/selected_musiclist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null" />
+    </LinearLayout>
+
+    <!--
+         <com.suwen.medicineassistant.tools.RecordButton
+        android:id="@id/select_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/btn_longbutton"
+        android:text="按住录音"
+        android:textColor="@color/white"
+        android:textSize="20.0sp"
+        android:visibility="gone" />
+    -->
+
+</RelativeLayout><!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/layout/activity_select_sound.xml -->

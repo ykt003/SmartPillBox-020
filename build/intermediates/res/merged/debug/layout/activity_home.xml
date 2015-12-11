@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/y_clockTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0"
+        android:background="#ffffffff"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="15.0dip" 
+               >
+
+                <ImageView
+                    android:id="@+id/iv_touxiang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/touxiang" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="智能药盒"
+                    android:textColor="#ff4493a5"
+                    android:textSize="38.0sp" 
+             		android:layout_toRightOf="@+id/iv_touxiang"  
+             		android:layout_marginTop="35dp"               
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="15.0dip" >
+
+            <TextView
+                android:id="@+id/y_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20.0dip"
+                android:text="2014"
+                android:textColor="#ff333333"
+                android:textSize="22.0sp" />
+
+            <TextView
+                android:id="@+id/y_monthtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7/"
+                android:textColor="#ff4493a5"
+                android:textSize="38.0sp" />
+
+            <TextView
+                android:id="@+id/y_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="#ff4493a5"
+                android:textSize="38.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/border_dashed" />
+
+    <LinearLayout
+        android:id="@+id/y_drugRemind"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="left|center"
+        android:orientation="vertical"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="15.0dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="用药提醒："
+                android:textColor="#ff333333"
+                android:textSize="22.0sp" />
+
+            <TextView
+                android:id="@+id/hometime"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="20.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/y_showdrugclock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/y_drugName"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_weight="1.0"
+                android:gravity="bottom"
+                android:text="吗丁啉"
+                android:textColor="#ff333333"
+                android:textSize="18.0sp" />
+
+            <ImageView
+                android:id="@id/homeMod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/y_drugclock" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ffd0d0d0" />
+
+    <FrameLayout
+        android:id="@id/y_drugNav"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0"
+        android:background="@drawable/repeat"
+        android:padding="20.0dip" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffffff" >
+
+            <TableRow
+                android:id="@id/y_abovenav"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" >
+
+                <LinearLayout
+                    android:id="@id/y_nowremind"
+                    style="@style/textview_allgrade_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="0.5dip"
+                    android:layout_marginRight="0.5dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/repeat"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@id/iconSetAlertBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@drawable/y_setclock" />
+
+                    <TextView
+                        android:id="@id/setAlert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="设置提醒"
+                        android:textColor="#ff535353"
+                        android:textSize="23.0sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@id/y_setClock"
+                    style="@style/textview_allgrade_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="0.5dip"
+                    android:layout_marginLeft="0.5dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/repeat"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@id/iconTodayAlert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4.0dip"
+                        android:src="@drawable/y_nowremind" />
+
+                    <TextView
+                        android:id="@id/todayAlert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="当日提醒"
+                        android:textColor="#ff535353"
+                        android:textSize="23.0sp" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@id/y_abovenav"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" >
+
+                <LinearLayout
+                    android:id="@id/historylayoutroot"
+                    style="@style/textview_allgrade_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="0.5dip"
+                    android:layout_marginTop="0.5dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/repeat"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@id/iconHistory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4.0dip"
+                        android:src="@drawable/y_drughistory" />
+
+                    <TextView
+                        android:id="@id/history"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="服药历史"
+                        android:textColor="#ff535353"
+                        android:textSize="23.0sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/y_setClocks"
+                    style="@style/textview_allgrade_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="0.5dip"
+                    android:layout_marginTop="0.5dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/repeat"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@id/iconMedKnowledge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4.0dip"
+                        android:src="@drawable/y_gameicon" />
+
+                    <TextView
+                        android:id="@id/medKnowledge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="联系我们"
+                        android:textColor="#ff535353"
+                        android:textSize="23.0sp" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/layout/activity_home.xml -->

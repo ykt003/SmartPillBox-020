@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dip"
+    android:layout_height="350dip"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="300dip"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/groups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@id/uploadHistory"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:text="片"
+                android:textColor="@color/black"
+                android:textSize="20.0dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#ffa6a6a6" />
+
+            <RadioButton
+                android:id="@id/button2"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+               android:gravity="center"
+               android:textColor="@color/black"
+                android:text="粒"
+                android:textSize="20.0dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#ffa6a6a6" />
+
+            <RadioButton
+                android:id="@id/button3"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="袋"
+                android:textSize="20.0dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#ffa6a6a6" />
+
+            <RadioButton
+                android:id="@id/button4"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                 android:gravity="center"
+                 android:textColor="@color/black"
+                android:text="丸"
+                android:textSize="20.0dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#ffa6a6a6" />
+
+            <RadioButton
+                android:id="@id/button5"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+               android:gravity="center"
+               android:textColor="@color/black"
+                android:text="支"
+                android:textSize="20.0dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#ffa6a6a6" />
+
+            <RadioButton
+                android:id="@id/button6"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="贴"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#ffa6a6a6" />
+
+            <RadioButton
+                android:id="@id/button7"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="其他"
+                android:textSize="20sp" />
+        </RadioGroup>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="#D4D4D4"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/usage_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

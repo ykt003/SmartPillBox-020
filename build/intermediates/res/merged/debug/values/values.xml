@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="firstActivity_list_title">
+        <item>重点污染源在线预警</item>
+        <item>实时数据</item>
+        <item>历史数据</item>
+    </string-array>
+    <string-array name="title">
+        <item>用药提醒</item>
+        <item>药物管理</item>
+        <item>服药历史</item>
+    </string-array>
+    <!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="metaButtonBarButtonStyle"/>
+    <attr format="reference" name="metaButtonBarStyle"/>
+    <attr format="string" name="value"/>
+    <!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="Calendar_DayBgColor">#fff7f7f7</color>
+    <color name="Calendar_WeekBgColor">#ffefe7de</color>
+    <color name="Calendar_WeekFontColor">#ff8c8a8c</color>
+    <color name="Friday">#ff43af95</color>
+    <color name="Monday">#ffd56020</color>
+    <color name="Saturday">#ff2541ad</color>
+    <color name="Sunday">#ffac263a</color>
+    <color name="Thursday">#ffcb5a8a</color>
+    <color name="Tuesday">#ffd3ae18</color>
+    <color name="Wednesday">#ffbadc32</color>
+    <color name="application_backcolor">#fff6eade</color>
+    <color name="bgcolor">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="border_color">#ffffffff</color>
+    <color name="cacheColor">#00000000</color>
+    <color name="calendar_background">#ff000000</color>
+    <color name="commonReminder">#ffbdbab5</color>
+    <color name="current_day_color">#ffff0000</color>
+    <color name="day_color">#ffffffff</color>
+    <color name="deep_green">#ff69a9b7</color>
+    <color name="gray">#ff808080</color>
+    <color name="inner_grid_color">#ffffffff</color>
+    <color name="isHoliday_BgColor">#ffe0e0e0</color>
+    <color name="isPresentMonth_FontColor">#ff000000</color>
+    <color name="isToday_BgColor">#ffebdcc1</color>
+    <color name="l_gray">#ff999999</color>
+    <color name="light_gray">#ffe6e6e6</color>
+    <color name="login_font">#ff3d3e40</color>
+    <color name="medbackground">#ffc3ed5f</color>
+    <color name="menuBG">#00d5edb3</color>
+    <color name="prev_next_month_day_color">#ff999999</color>
+    <color name="recordremind_background">#ffffffff</color>
+    <color name="recordremindtext_color">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="sky_blue">#ff81bdd1</color>
+    <color name="specialReminder">#ffff0000</color>
+    <color name="sunday_saturday_color">#ffff0000</color>
+    <color name="sunday_saturday_prev_next_month_day_color">#ff990000</color>
+    <color name="text_color">#ffffff00</color>
+    <color name="text_minor">#ff666666</color>
+    <color name="title_icon">#ff000000</color>
+    <color name="today_background_color">#ffff0000</color>
+    <color name="today_color">#ffffffff</color>
+    <color name="transparent">#50000000</color>
+    <color name="transparent_background">#80000000</color>
+    <color name="transparent_background2">#99ffffff</color>
+    <color name="transwhite">#00ffffff</color>
+    <color name="txtcolor">#ff000000</color>
+    <color name="unPresentMonth_FontColor">#ff8c8a8c</color>
+    <color name="weekname_color">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="ImageCircleView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="border">20.0dip</dimen>
+    <dimen name="btnborder">45.0dip</dimen>
+    <dimen name="pulldown_auto_incremental">6.0dip</dimen>
+    <dimen name="pulldown_headerview_height">70.0dip</dimen>
+    <dimen name="pulldown_move_deviation">38.0dip</dimen>
+    <!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="CancelButton" type="id">false</item>
+    <item name="DelayButton" type="id">false</item>
+    <item name="FrameLayout1" type="id">false</item>
+    <item name="GridLayout1" type="id">false</item>
+    <item name="LinearLayout01" type="id">false</item>
+    <item name="LinearLayout02" type="id">false</item>
+    <item name="LinearLayout03" type="id">false</item>
+    <item name="LinearLayout1" type="id">false</item>
+    <item name="MorePageTableLayout_Favorite" type="id">false</item>
+    <item name="MorePageTableLayout_Follow" type="id">false</item>
+    <item name="OkButton" type="id">false</item>
+    <item name="ScrollLayoutTest" type="id">false</item>
+    <item name="Top_Date" type="id">false</item>
+    <item name="_jiclass" type="id">false</item>
+    <item name="action_settings" type="id">false</item>
+    <item name="activity_time" type="id">false</item>
+    <item name="addNewAlertTitle" type="id">false</item>
+    <item name="add_new_alert_table" type="id">false</item>
+    <item name="alertHistoryBack" type="id">false</item>
+    <item name="alertHistoryTitle" type="id">false</item>
+    <item name="alertTextView1" type="id">false</item>
+    <item name="alertTextView2" type="id">false</item>
+    <item name="alertbtn1" type="id">false</item>
+    <item name="alertbtn2" type="id">false</item>
+    <item name="alertmedname" type="id">false</item>
+    <item name="alertsub" type="id">false</item>
+    <item name="bell1" type="id">false</item>
+    <item name="bell2" type="id">false</item>
+    <item name="bell3" type="id">false</item>
+    <item name="btn_anzhuang" type="id">false</item>
+    <item name="btn_buzai" type="id">false</item>
+    <item name="btn_close" type="id">false</item>
+    <item name="btn_next_month" type="id">false</item>
+    <item name="btn_pre_month" type="id">false</item>
+    <item name="btn_xiaci" type="id">false</item>
+    <item name="btnlead1next" type="id">false</item>
+    <item name="btnlead2back" type="id">false</item>
+    <item name="btnlead2next" type="id">false</item>
+    <item name="btnlead3back" type="id">false</item>
+    <item name="btnlead3next" type="id">false</item>
+    <item name="btnlead4back" type="id">false</item>
+    <item name="btnlead4next" type="id">false</item>
+    <item name="btnrign1" type="id">false</item>
+    <item name="btnring2" type="id">false</item>
+    <item name="btnupload" type="id">false</item>
+    <item name="button10" type="id">false</item>
+    <item name="button11" type="id">false</item>
+    <item name="button12" type="id">false</item>
+    <item name="button2" type="id">false</item>
+    <item name="button3" type="id">false</item>
+    <item name="button4" type="id">false</item>
+    <item name="button5" type="id">false</item>
+    <item name="button6" type="id">false</item>
+    <item name="button7" type="id">false</item>
+    <item name="button8" type="id">false</item>
+    <item name="button9" type="id">false</item>
+    <item name="buy_header" type="id">false</item>
+    <item name="car_header" type="id">false</item>
+    <item name="cardNoTxt" type="id">false</item>
+    <item name="clock_off" type="id">false</item>
+    <item name="clock_on" type="id">false</item>
+    <item name="cope" type="id">false</item>
+    <item name="ctv" type="id">false</item>
+    <item name="dashedLine1" type="id">false</item>
+    <item name="dashedLine2" type="id">false</item>
+    <item name="dashedLine3" type="id">false</item>
+    <item name="del_cancel" type="id">false</item>
+    <item name="del_ok" type="id">false</item>
+    <item name="delete" type="id">false</item>
+    <item name="dis" type="id">false</item>
+    <item name="drug_dose" type="id">false</item>
+    <item name="drug_name" type="id">false</item>
+    <item name="edit_wrap" type="id">false</item>
+    <item name="empty_cart_view" type="id">false</item>
+    <item name="expandableListView1" type="id">false</item>
+    <item name="first_listview" type="id">false</item>
+    <item name="first_title" type="id">false</item>
+    <item name="giv" type="id">false</item>
+    <item name="grlayout" type="id">false</item>
+    <item name="group" type="id">false</item>
+    <item name="gtv" type="id">false</item>
+    <item name="history" type="id">false</item>
+    <item name="historylayoutmain" type="id">false</item>
+    <item name="historylayoutroot" type="id">false</item>
+    <item name="homeMod" type="id">false</item>
+    <item name="hometime" type="id">false</item>
+    <item name="horizontalScrollView1" type="id">false</item>
+    <item name="hospitalTxt" type="id">false</item>
+    <item name="hulue" type="id">false</item>
+    <item name="iconAddNewAlertBack" type="id">false</item>
+    <item name="iconAddNewAlertDelete" type="id">false</item>
+    <item name="iconHistory" type="id">false</item>
+    <item name="iconMedKnowledge" type="id">false</item>
+    <item name="iconSelectMusicBack" type="id">false</item>
+    <item name="iconSetAlertBack" type="id">false</item>
+    <item name="iconSetAlertBackGame" type="id">false</item>
+    <item name="iconTodayAlert" type="id">false</item>
+    <item name="iconTodayBack" type="id">false</item>
+    <item name="idcardtxt" type="id">false</item>
+    <item name="image" type="id">false</item>
+    <item name="imageButtonnext" type="id">false</item>
+    <item name="imageButtonpre" type="id">false</item>
+    <item name="imageView1" type="id">false</item>
+    <item name="imageView2" type="id">false</item>
+    <item name="imageViewalert" type="id">false</item>
+    <item name="imgview1bg" type="id">false</item>
+    <item name="imgview2bg" type="id">false</item>
+    <item name="imgview3bg" type="id">false</item>
+    <item name="item_image" type="id">false</item>
+    <item name="item_name" type="id">false</item>
+    <item name="lead3listview" type="id">false</item>
+    <item name="lead4listview" type="id">false</item>
+    <item name="linearLayout1" type="id">false</item>
+    <item name="listView1" type="id">false</item>
+    <item name="listView2" type="id">false</item>
+    <item name="loginbtn" type="id">false</item>
+    <item name="loginbtnindex" type="id">false</item>
+    <item name="lv_item" type="id">false</item>
+    <item name="mactivitywin" type="id">false</item>
+    <item name="medKnowledge" type="id">false</item>
+    <item name="med_detail_root_view" type="id">false</item>
+    <item name="med_root_row" type="id">false</item>
+    <item name="med_root_table" type="id">false</item>
+    <item name="med_webview" type="id">false</item>
+    <item name="mednames" type="id">false</item>
+    <item name="medtiplayout" type="id">false</item>
+    <item name="monthdaydisplay" type="id">false</item>
+    <item name="more_header" type="id">false</item>
+    <item name="more_header2" type="id">false</item>
+    <item name="more_page_row0" type="id">false</item>
+    <item name="more_page_row1" type="id">false</item>
+    <item name="more_page_row2" type="id">false</item>
+    <item name="more_page_row3" type="id">false</item>
+    <item name="myCheckBox" type="id">false</item>
+    <item name="mySideBar1" type="id">false</item>
+    <item name="nameTxt" type="id">false</item>
+    <item name="nametxt" type="id">false</item>
+    <item name="new_name" type="id">false</item>
+    <item name="one_shot" type="id">false</item>
+    <item name="over_listView" type="id">false</item>
+    <item name="over_textview" type="id">false</item>
+    <item name="pageviewbtnnext" type="id">false</item>
+    <item name="product_name" type="id">false</item>
+    <item name="pulldown_footer_loading" type="id">false</item>
+    <item name="pulldown_footer_text" type="id">false</item>
+    <item name="pulldown_header_arrow" type="id">false</item>
+    <item name="pulldown_header_date" type="id">false</item>
+    <item name="pulldown_header_loading" type="id">false</item>
+    <item name="pulldown_header_text" type="id">false</item>
+    <item name="radio0" type="id">false</item>
+    <item name="radio2" type="id">false</item>
+    <item name="radioGroup1" type="id">false</item>
+    <item name="relativeLayout1" type="id">false</item>
+    <item name="ren_cancel" type="id">false</item>
+    <item name="ren_ok" type="id">false</item>
+    <item name="ren_rename" type="id">false</item>
+    <item name="s_click" type="id">false</item>
+    <item name="s_textview01" type="id">false</item>
+    <item name="s_textviewtip01" type="id">false</item>
+    <item name="score" type="id">false</item>
+    <item name="scoreLayble" type="id">false</item>
+    <item name="scrollView1" type="id">false</item>
+    <item name="search_products_editText" type="id">false</item>
+    <item name="second_imageView1" type="id">false</item>
+    <item name="second_imageView2" type="id">false</item>
+    <item name="second_listview" type="id">false</item>
+    <item name="second_textView1" type="id">false</item>
+    <item name="second_title" type="id">false</item>
+    <item name="select_bells" type="id">false</item>
+    <item name="select_btnmusic" type="id">false</item>
+    <item name="select_button" type="id">false</item>
+    <item name="select_music" type="id">false</item>
+    <item name="select_musiclist" type="id">false</item>
+    <item name="select_musicname" type="id">false</item>
+    <item name="select_record" type="id">false</item>
+    <item name="select_title" type="id">false</item>
+    <item name="select_voice" type="id">false</item>
+    <item name="selectbox" type="id">false</item>
+    <item name="setAlert" type="id">false</item>
+    <item name="shaohou" type="id">false</item>
+    <item name="start_repeating" type="id">false</item>
+    <item name="stop_repeating" type="id">false</item>
+    <item name="tab_imageView" type="id">false</item>
+    <item name="tab_textView" type="id">false</item>
+    <item name="tableLayout1" type="id">false</item>
+    <item name="tableRow1" type="id">false</item>
+    <item name="tableRow2" type="id">false</item>
+    <item name="tableRow3" type="id">false</item>
+    <item name="tableRow5" type="id">false</item>
+    <item name="tableRow6" type="id">false</item>
+    <item name="tablelayouttop1" type="id">false</item>
+    <item name="text" type="id">false</item>
+    <item name="textName" type="id">false</item>
+    <item name="textView1" type="id">false</item>
+    <item name="textView3" type="id">false</item>
+    <item name="textView4" type="id">false</item>
+    <item name="textView5" type="id">false</item>
+    <item name="textView6" type="id">false</item>
+    <item name="textViewForLeader3Day" type="id">false</item>
+    <item name="textimage_image" type="id">false</item>
+    <item name="textimage_text1" type="id">false</item>
+    <item name="textimage_text2" type="id">false</item>
+    <item name="textimage_text3" type="id">false</item>
+    <item name="textview01" type="id">false</item>
+    <item name="textview02" type="id">false</item>
+    <item name="textview03" type="id">false</item>
+    <item name="textview1" type="id">false</item>
+    <item name="textview2" type="id">false</item>
+    <item name="thumbnail" type="id">false</item>
+    <item name="timePicker1" type="id">false</item>
+    <item name="tip_delete" type="id">false</item>
+    <item name="tip_rename" type="id">false</item>
+    <item name="titleText" type="id">false</item>
+    <item name="tixing" type="id">false</item>
+    <item name="todayAlert" type="id">false</item>
+    <item name="topLayout" type="id">false</item>
+    <item name="topScore" type="id">false</item>
+    <item name="topScoreLable" type="id">false</item>
+    <item name="tv_item" type="id">false</item>
+    <item name="txtAddNewAlertTitle" type="id">false</item>
+    <item name="txtAlertHistoryTitle" type="id">false</item>
+    <item name="txtDetail" type="id">false</item>
+    <item name="txtName" type="id">false</item>
+    <item name="txtforalert" type="id">false</item>
+    <item name="uploadHistory" type="id">false</item>
+    <item name="y_abovenav" type="id">false</item>
+    <item name="y_addbtn" type="id">false</item>
+    <item name="y_alpha1" type="id">false</item>
+    <item name="y_clockTime" type="id">false</item>
+    <item name="y_day" type="id">false</item>
+    <item name="y_drugName" type="id">false</item>
+    <item name="y_drugNav" type="id">false</item>
+    <item name="y_drugRemind" type="id">false</item>
+    <item name="y_drugclass" type="id">false</item>
+    <item name="y_monthtv" type="id">false</item>
+    <item name="y_nowremind" type="id">false</item>
+    <item name="y_setClock" type="id">false</item>
+    <item name="y_showdrugclock" type="id">false</item>
+    <item name="y_year" type="id">false</item>
+    <!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action">动弹</string>
+    <string name="action_settings">Settings</string>
+    <string name="addnewalert">+添加药物提醒</string>
+    <string name="afterbreakfaft">请服用早餐前药物</string>
+    <string name="alarm_controller">alerm window</string>
+    <string name="answers">问答</string>
+    <string name="app_menu_surelogout">确定退出程序吗？</string>
+    <string name="app_name">智能药盒</string>
+    <string name="calandermonth">服药历史统计：本月</string>
+    <string name="calanderweek">服药历史统计：本周</string>
+    <string name="cancle">取消</string>
+    <string name="cope">复制</string>
+    <string name="delete">删除</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">"DUMMY
+CONTENT"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imageName">imageName</string>
+    <string name="lead1text1">您是否医院患者？</string>
+    <string name="lead1text2">从医院下载处方，自动设置服药提醒</string>
+    <string name="lead1text3">自己输入药名，手工设置服药提醒</string>
+    <string name="lead2text1">"从医院下载电子处方
+需要验证您的身份:"</string>
+    <string name="lead2text2">医院:</string>
+    <string name="lead2text3">姓名:</string>
+    <string name="lead2text4">身份证号:</string>
+    <string name="lead2text5">提醒：患者姓名和身份证号必须与医院登记的一致！</string>
+    <string name="lead3text1">从医院下载的电子处方</string>
+    <string name="lead3text2">就诊日期：</string>
+    <string name="lead3text3">医院：北京大学第六医院</string>
+    <string name="lead3text4">科室：</string>
+    <string name="lead3text5">医生：</string>
+    <string name="lead3text6">处方：</string>
+    <string name="lead4text1">"闹钟设置成功
+又是美好的一天！"</string>
+    <string name="login_form_idcard">身份证</string>
+    <string name="login_form_mobile">手机号</string>
+    <string name="login_form_name">姓名</string>
+    <string name="loginbtn">会员登录</string>
+    <string name="loginbtnclick">loginbtnclick</string>
+    <string name="menu_settings">Settings</string>
+    <string name="more">更多</string>
+    <string name="myZone">我的空间</string>
+    <string name="news">资讯</string>
+    <string name="one_shot_alarm">一次闹铃</string>
+    <string name="splite">-------------------------------------------------------------------------</string>
+    <string name="start_repeating_alarm">开始重复闹铃</string>
+    <string name="stop_repeating_alarm">停止重复闹铃</string>
+    <string name="sure">确定</string>
+    <string name="title_activity_add_new_alert">AddNewAlert</string>
+    <string name="title_activity_alarm_alert">AlarmAlertActivity</string>
+    <string name="title_activity_alarm_controller">AlarmController</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_lead1">Lead1Activity</string>
+    <string name="title_activity_lead2">Lead2Activity</string>
+    <string name="title_activity_lead3">Lead3Activity</string>
+    <string name="title_activity_lead4">Lead4Activity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_m">MActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_med_detial">MedDetial</string>
+    <string name="title_activity_select_days">选择间隔</string>
+    <string name="title_activity_select_sound">选择提示音</string>
+    <string name="title_activity_select_time">选择时间</string>
+    <string name="titlename">选择列表项</string>
+    <string name="todaymedrecord">今天用药提醒：</string>
+    <string name="tomorowmedrecord">明天用药提醒：</string>
+    <!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light"/>
+    <style name="AppTheme" parent="@style/AppBaseTheme"/>
+    <style name="ButtonBar">
+        <item name="android:background">@*android:drawable/bottom_bar</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="FullscreenTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+    <style name="Transparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Translucent</item>
+    </style>
+    <style name="like_toast_dialog_style">
+        <item name="android:windowBackground">@drawable/round_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="textview_allgrade_content">
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="weekName">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

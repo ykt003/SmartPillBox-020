@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5.0dip" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="50.0dip"
+        android:background="@drawable/w_list"
+        android:gravity="center|left" >
+
+        <TextView
+            android:id="@id/textview01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10.0dp"
+            android:singleLine="true"
+            android:textSize="28.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@id/textview02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="20.0sp" />
+    </TableRow>
+
+</TableLayout><!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/layout/first_listviewitem.xml -->

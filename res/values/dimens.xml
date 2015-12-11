@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="border">20.0dip</dimen>
+    <dimen name="btnborder">45.0dip</dimen>
+    <dimen name="pulldown_headerview_height">70.0dip</dimen>
+    <dimen name="pulldown_move_deviation">38.0dip</dimen>
+    <dimen name="pulldown_auto_incremental">6.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+</resources>

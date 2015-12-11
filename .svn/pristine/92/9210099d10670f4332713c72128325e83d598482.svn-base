@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="50.0dip"
+        android:layout_weight="0.03" >
+
+        <TextView
+            android:id="@+id/select_musicnames"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15.0dip"
+            android:text="雨的秘密轻轻告诉你"
+            android:textColor="#ff69a9b7"
+            android:textSize="20.0sp" />
+
+        <ImageView
+            android:id="@+id/select_btnmusics"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#ffcccccc" />
+    </RelativeLayout>
+
+</LinearLayout>

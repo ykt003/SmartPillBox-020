@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rilintech/Desktop/working_copies/SmartPillBox-020/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="/Users/rilintech/Desktop/working_copies/SmartPillBox-020/build/intermediates/pre-dexed/debug/android-support-v4-2a5ec4254e6e64d21a99ad11837c723e253f32de.jar" />
+    </item>
+
+</items>

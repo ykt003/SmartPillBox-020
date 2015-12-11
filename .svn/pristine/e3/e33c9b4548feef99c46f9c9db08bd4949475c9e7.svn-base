@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alertdialogbj"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5.0dip"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="5.0dip"
+            android:src="@drawable/alertdialogicon" />
+
+        <TextView
+            android:id="@id/alertTextView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@color/white"
+            android:gravity="left|center"
+            android:lineSpacingExtra="10.0dip"
+            android:paddingBottom="10.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip"
+            android:textColor="@color/black"
+            android:textSize="20.0sp" 
+            android:text="请填写药物名称"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="42.0dip"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15.0dip"
+        android:layout_marginTop="0.0dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@id/alertbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="25.0dip"
+            android:background="@drawable/alertbtn6" />
+    </LinearLayout>
+
+</LinearLayout>

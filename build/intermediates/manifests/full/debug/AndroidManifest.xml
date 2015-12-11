@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rilintech.smartpillbox_001"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.MOUT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rilintech.controller.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rilintech.controller.MedDescriptionListActivity"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.controller.MedDescriptionAddActivity"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.controller.HistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.unit.MedDescriptionDeleteDialogActivity"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.controller.RingSelectedActivity"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.controller.CompanyActivity"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.controller.TodayRemindActivity"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.controller.AlarmActivity"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.controller.ExitActivity"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.controller.MedDescriptionDetailActivity"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rilintech.controller.MedDescriptionDetailActivity2"
+            android:label="@string/title_activity_lead4"
+            android:screenOrientation="portrait"
+            android:theme="@*android:style/Theme.NoTitleBar" />
+
+        <service android:name="com.rilintech.controller.AlarmService" >
+            <intent-filter>
+                <action android:name="com.shen.music1" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.rilintech.receiver.AlarmReceiver"
+            android:exported="false"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.rilintech.controller.AlarmReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.rilintech.receiver.BootReceiver"
+            android:exported="false"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

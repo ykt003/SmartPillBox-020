@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title">
+        <item>用药提醒</item>
+        <item>药物管理</item>
+        <item>服药历史</item>
+    </string-array>
+    <string-array name="firstActivity_list_title">
+        <item>重点污染源在线预警</item>
+        <item>实时数据</item>
+        <item>历史数据</item>
+    </string-array>
+</resources>

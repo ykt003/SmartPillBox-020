@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/alertdialogbj" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/alertdialogicon" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/black" android:gravity="left|center" android:layout_gravity="center" android:id="@id/alertTextView1" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:lineSpacingExtra="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="15.0dip">
+        <Button android:layout_gravity="center" android:id="@id/alertbtn1" android:background="@drawable/alertbtn4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" />
+        <Button android:layout_gravity="center" android:id="@id/alertbtn2" android:background="@drawable/alertbtn5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/Users/rilintech/Desktop/working_copies/SmartPillBox-020/res/layout/two_button_alert_dialog.xml -->

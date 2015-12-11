@@ -1,0 +1,108 @@
+package com.rilintech.manager;
+
+import java.util.ArrayList;
+import java.util.List;
+import com.rilintech.model.RequestCode;
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
+
+/**
+ * RequsetCode�Ĺ�����
+ * @author ykt003
+ *
+ */
+public class RequsetCodeManager {
+
+	private static Context mContext ;
+	private static final String TAG = "RequsetCodeManager";
+	private static String DB_NAME = "request_code";
+	public static final int DB_VERSION = 2;
+	private static final String DATABASE_CREATE = "create table if not exists request_code (_id Integer primary key autoincrement,"
+			+" part Integer )";
+	private static SQLiteDatabase mSQLiteDatabase = null;
+	private static DataBaseManagementHelper mDatabaseHelper = null;
+
+	private static class DataBaseManagementHelper extends SQLiteOpenHelper {
+
+		DataBaseManagementHelper(Context context) {
+
+			super(context, DB_NAME, null, DB_VERSION);
+			onCreate(getWritableDatabase());
+		}
+
+		@Override
+		public void onCreate(SQLiteDatabase db) {
+			Log.i(TAG, "db.getVersion()=" + db.getVersion());
+			db.execSQL(DATABASE_CREATE);
+			Log.e(TAG, DATABASE_CREATE);
+		}
+
+		@Override
+		public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+			Log.i(TAG, "DataBaseManagementHelper onUpgrade");
+			onCreate(db);
+		}
+	}
+
+	public RequsetCodeManager(Context context){
+		this.mContext = context;
+	}
+
+	public void openDataBase() throws SQLException {
+
+		mDatabaseHelper = new DataBaseManagementHelper(mContext);
+
+		mSQLiteDatabase = mDatabaseHelper.getWritableDatabase();
+	}
+
+	public void closeDataBase() throws SQLException {
+
+		mDatabaseHelper.close();
+	}
+
+	/*
+	 * ����һ��
+	 */
+	public long addRequsetCodeManager(RequestCode r) {
+		// TODO Auto-generated method stub
+		ContentValues c = new ContentValues();
+		c.put("part", r.getPart());
+
+		return mSQLiteDatabase.insert(DB_NAME, null, c);
+	}
+	/**
+	 *  ��ѯ�������е�part
+	 * @return
+	 */
+	public Cursor getPart() {
+		Cursor cursor = mSQLiteDatabase.rawQuery("select * from request_code", null);
+		return cursor;
+	}
+	
+	/**
+	 * �õ������е�����
+	 */
+	public List<RequestCode> getParts() {
+
+		List<RequestCode> list = new ArrayList<RequestCode>();
+		Cursor c = getPart();
+		while (c.moveToNext()) {
+			RequestCode r = new RequestCode();
+			r.setPart(c.getInt(c.getColumnIndex("part")));
+			list.add(r);
+		}
+		c.close();
+		return list;
+	}
+	/**
+	 * ɾ����
+	 */
+	public void remove() {
+		mSQLiteDatabase.execSQL("delete from request_code ");
+	}
+}

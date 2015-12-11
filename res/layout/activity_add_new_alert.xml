@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff3efed"
+    android:padding="0.0dip" >
+
+    <RelativeLayout
+        android:id="@id/addNewAlertTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@id/iconAddNewAlertBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16.0dip"
+            android:src="@drawable/w_backbutton" />
+
+        <TextView
+            android:id="@id/txtAddNewAlertTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置提醒"
+            android:textColor="@color/black"
+            android:textSize="30.0sp" />
+
+        <ImageView
+            android:id="@id/iconAddNewAlertDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/iconAddNewAlertBack"
+            android:layout_marginRight="16.0dip"
+            android:src="@drawable/y_delete" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#ffcccccc" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/addNewAlertTitle"
+        android:fadingEdge="none"
+        android:padding="6.0dip" >
+
+        <TableLayout
+            android:id="@id/add_new_alert_table"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6.0dip"
+            android:shrinkColumns="0"
+            android:stretchColumns="0" />
+    </ScrollView>
+
+</RelativeLayout>
